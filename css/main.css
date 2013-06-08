@@ -203,6 +203,15 @@ article {
     line-height: 18px;
     margin-top: 16px;
 }
+#intro #start-arrow {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 34px;
+    position: absolute;
+    left: 48%;
+    bottom: -13px;
+}
 
 ::-webkit-input-placeholder {
    color: white;
