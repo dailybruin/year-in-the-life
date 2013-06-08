@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	skrollr.init();
 	$('#intro').css('height',window.innerHeight);
 	$('#intro #info-name').focus();
 
