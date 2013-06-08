@@ -93,14 +93,136 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+article {
+    width:960px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
+#intro {
+    background-color:#1daabd;
+}
+#intro h1 {
+    margin-top:0;
+    text-align:left;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    padding-top: 10px;
+    margin-bottom: 80px;
+}
+#intro h1 span {
+    display:block;
+    text-transform:lowercase;
+    color:white;
+    font-weight: normal;
+}
+#intro #title-year {
+    font-size: 80px;
+    position: relative;
+    left: -37px;
+}
+#intro #title-inthe {
+    opacity: 0.6;
+    font-size: 45px;
+    position: relative;
+    top: -30px;
+}
+#intro #title-life {
+    font-weight: bold;
+    font-size: 195px;
+    line-height: 10px;
+    position: relative;
+    top: 34px;
+    float: left;
+}
+#intro #title-atucla {
+    opacity: 0.4;
+    font-size: 25px;
+    position: relative;
+    left: 291px;
+    top: 64px;
+    text-transform: none;
+}
+#intro h2 {
+    text-align: center;
+    color: white;
+    padding-top: 59px;
+    display: block;
+    font-weight: normal;
+}
 
+#intro #info-form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#intro #info-form [type=text] {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #126671;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Palatino Linotype","Palatino",serif;
+    color: white;
+    outline: none;
+    font-size: 26px;
+    font-style: italic;
+}
 
+#intro #info-form select {
+    -webkit-appearance: none;
+    border: none;
+    font-family: "Palatino Linotype","Palatino",serif;
+    border-bottom: 1px solid #126671;
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    width: 50%;
+    font-size: 26px; font-style: italic;
+    padding-left: 10px;
+    outline:none;
+}
+#intro #privacy-disclaimer {
+    position: absolute;
+    width: 300px;
+    text-align: right;
+    font-family: "Palatino Linotype","Palatino", serif;
+    color: #126671;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 16px;
+}
 
+::-webkit-input-placeholder {
+   color: white;
+   opacity:0.5;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+   opacity:0.5;
+}
 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+   opacity:0.5;
+}
 
+:-ms-input-placeholder {  
+   color: white;  
+   opacity:0.5;
+}
 
 
 
