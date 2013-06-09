@@ -428,6 +428,20 @@ section {
     width: 600px;
 }
 
+#pauley {
+    z-index:100;
+}
+#pauley img {
+    width:100%;
+    max-width:2000px;
+}
+#pauley .story-text {
+    left: 5%;
+    text-align: left;
+    margin-left: 0;
+}
+
+
 
 ::-webkit-input-placeholder {
    color: white;
