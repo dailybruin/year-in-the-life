@@ -104,6 +104,22 @@ article {
     margin-right:auto;
 }
 
+section {
+    position:relative;
+}
+
+.story-text {
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;    
+    display: block;
+    position: absolute;
+    font-family: "Palatino Linotype","Palatino",serif;
+    font-size: 30px;
+    text-align: center;
+    height: 0;
+}
+
 
 #header-bar {
     position: fixed;
@@ -237,7 +253,7 @@ article {
     background-repeat: no-repeat;
     background-position: center center;
     position:relative;
-    bottom:-100px;
+    bottom:-200px;
 }
 #welcome-letter #letter-front {
     display:block;
@@ -270,6 +286,24 @@ article {
 
 #welcome-letter .user-applicant-number {
     font-weight:bold;
+}
+#welcome-letter .story-text {
+        top: -140px;
+}
+
+#orientation-myths {
+    position:relative;
+    z-index:2;
+    width:100%;
+    overflow:hidden;
+}
+#orientation-myths img {
+    width:100%;
+}
+#orientation-myths .story-text {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-weight: bold;
+    color:white;
 }
 
 ::-webkit-input-placeholder {
