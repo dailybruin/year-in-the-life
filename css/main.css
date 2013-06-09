@@ -105,8 +105,20 @@ article {
 }
 
 
+#header-bar {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #126671;
+    z-index:100;
+}
+
 #intro {
     background-color:#126671;
+    position:relative;
+    z-index:101;
 }
 #intro h1 {
     margin-top:0;
