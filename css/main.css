@@ -599,6 +599,17 @@ section {
     font-weight: bold;
 }
 
+#final .links {
+    font-size: 20px;
+    display: block;
+}
+#final .links a {
+    color:white;
+}
+#final .links a:visited {
+    color:white;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
