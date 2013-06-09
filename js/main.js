@@ -1,4 +1,5 @@
 var user_name;
+var s;
 
 $(document).ready(function() {
 
@@ -35,5 +36,5 @@ $(document).ready(function() {
 
 
 	// Initialize skrollr
-	skrollr.init({forceHeight:false});
+	s = skrollr.init({forceHeight:true});
 });

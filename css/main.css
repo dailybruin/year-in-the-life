@@ -105,7 +105,9 @@ article {
 }
 
 section {
-    position:relative;
+    position:fixed;
+    width:100%;
+    overflow:hidden;
 }
 
 .story-text {
@@ -133,8 +135,6 @@ section {
 
 #intro {
     background-color:#126671;
-    position:relative;
-    z-index:101;
 }
 #intro h1 {
     margin-top:0;
@@ -245,6 +245,7 @@ section {
 
 #welcome-letter {
     background-color:#eee;
+    z-index:100;
 }
 
 
@@ -292,10 +293,9 @@ section {
 }
 
 #orientation-myths {
-    position:relative;
-    z-index:2;
     width:100%;
     overflow:hidden;
+    display:none;
 }
 #orientation-myths img {
     width:100%;
@@ -304,6 +304,15 @@ section {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     font-weight: bold;
     color:white;
+}
+
+#dormroom {
+    display:none;
+}
+
+#dormroom img {
+    width:100%;
+    max-width:2000px;
 }
 
 ::-webkit-input-placeholder {
