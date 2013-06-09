@@ -551,6 +551,39 @@ section {
 }
 
 
+#diploma {
+    z-index:100;
+    background-color:#d7d5c8;
+}
+
+#diploma #diploma-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 80%;
+    margin-top: 20px;
+    position:relative;
+}
+#diploma #diploma-img img {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 1px solid #aaa; 
+    padding: 10px; 
+    background-color: white; 
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#diploma #diploma-name {
+    top: 90px;
+    font-size: 100px;
+    font-weight: bold;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+    position: absolute;
+}
 
 
 ::-webkit-input-placeholder {
