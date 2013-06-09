@@ -351,6 +351,25 @@ section {
     top: -24%;
 }
 
+#bruinbash {
+    z-index:100;
+}
+#bruinbash .story-text {
+    top:15px;
+}
+#bruinbash img {
+    width:100%;
+    max-width:2000px;
+}
+
+#volunteer {
+    z-index:100;
+}
+#volunteer img {
+    width:100%;
+    max-width:2000px;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
