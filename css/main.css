@@ -295,7 +295,7 @@ section {
 #orientation-myths {
     width:100%;
     overflow:hidden;
-    display:none;
+    z-index:100;
 }
 #orientation-myths img {
     width:100%;
