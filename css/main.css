@@ -470,6 +470,19 @@ section {
     max-width:2000px;
 }
 
+#springsing {
+    z-index:100;
+}
+#springsing img {
+    width:100%;
+    max-width:2000px;
+}
+#springsing .story-text {
+    margin-left: 0;
+    text-align: left;
+    left:20px;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
