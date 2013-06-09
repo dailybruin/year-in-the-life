@@ -7,6 +7,7 @@ $(document).ready(function() {
 	// Make a few fixes to the intro screen
 	$('#intro').css('height',window.innerHeight);
 	$('#intro #info-name').focus();
+	$('section').css('height',window.innerHeight);
 
 	// Disable the "Enter" key on the intro form
 	$('#info-form').bind("keypress", function(e) {

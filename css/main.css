@@ -215,6 +215,51 @@ article {
     color: white;
 }
 
+#welcome-letter {
+    background-color:#eee;
+}
+
+
+#welcome-letter article {
+    background-image: url('../img/letter-back.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    bottom:-100px;
+}
+#welcome-letter #letter-front {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    position:relative;
+    z-index:1;
+}
+
+#welcome-letter #letter-body {
+    position: absolute;
+    /*top: -15px;*/
+    top:400px;
+    left: 24%;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    width: 500px;
+    padding: 10px;
+    z-index: 0;
+    height: 500px;
+}
+
+#welcome-letter #letter-body p {
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Palatino Linotype","Palatino",serif;
+}
+
+#welcome-letter .user-applicant-number {
+    font-weight:bold;
+}
+
 ::-webkit-input-placeholder {
    color: white;
    opacity:0.5;
