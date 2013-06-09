@@ -537,6 +537,21 @@ section {
     width:100%;
 }
 
+#grad {
+    z-index:100;
+}
+#grad #grad-back {
+    width:100%;
+    max-width:2000px;
+}
+#grad #grad-caps {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+
+
 
 ::-webkit-input-placeholder {
    color: white;
