@@ -1,8 +1,6 @@
 var user_name;
 
 $(document).ready(function() {
-	// Initialize skrollr
-	skrollr.init();
 
 	// Make a few fixes to the intro screen
 	$('#intro').css('height',window.innerHeight);
@@ -34,4 +32,8 @@ $(document).ready(function() {
 		$('#tagline-name').html(user_name+"'s");
 
 	});
+
+
+	// Initialize skrollr
+	skrollr.init({forceHeight:false});
 });
