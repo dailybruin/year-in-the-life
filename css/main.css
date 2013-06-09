@@ -405,6 +405,9 @@ section {
     margin-left: -66px;
 }
 
+#elections2 {
+    z-index:100;
+}
 #elections2 #elections-img {
     width:100%;
     max-width:2000px;
