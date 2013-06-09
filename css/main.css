@@ -414,6 +414,21 @@ section {
 }
 
 
+#dancemarathon {
+    z-index:100;
+}
+#dancemarathon img {
+    width:100%;
+    max-width:2000px;
+}
+#dancemarathon .story-text {
+    right: 10%;
+    text-align: right;
+    left: auto;
+    width: 600px;
+}
+
+
 ::-webkit-input-placeholder {
    color: white;
    opacity:0.5;
