@@ -442,6 +442,26 @@ section {
 }
 
 
+#undie {
+    z-index:100;
+}
+#undie #undie-back {
+    width:100%;
+    max-width:2000px;
+}
+#undie #undie-people {
+    position:absolute;
+    width:100%;
+    top:0;
+}
+#undie .story-text {
+    text-align: right;
+    margin-left: 0;
+    width: 600px;
+    left: auto;
+    right: 40px;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
