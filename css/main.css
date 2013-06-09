@@ -300,20 +300,57 @@ section {
 #orientation-myths img {
     width:100%;
 }
-#orientation-myths .story-text {
+.story-text.story-text-white {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     font-weight: bold;
     color:white;
 }
 
 #dormroom {
-    display:none;
+    z-index:100;
 }
 
 #dormroom img {
     width:100%;
     max-width:2000px;
 }
+#dormroom #dorm-boxes {
+    position:absolute;
+}
+
+#dormroom #dorm-bubble1 {
+    background-image: url('../img/dorm-bubble1.png');
+    width:226px;
+    height:153px;
+    position: absolute;
+    z-index:100;
+    background-size: 226px 153px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 44px;
+    font-size: 20px;
+    padding-left: 12px;
+    left: 38%;
+    top: -24%;
+}
+
+#dormroom #dorm-bubble2 {
+    background-image: url('../img/dorm-bubble2.png');
+    width:226px;
+    height:153px;
+    position: absolute;
+    z-index:100;
+    background-size: 226px 153px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 44px;
+    font-size: 20px;
+    right:35%;    
+    top: -24%;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
