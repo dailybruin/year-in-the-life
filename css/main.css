@@ -484,7 +484,7 @@ section {
 }
 
 #jazz {
-    z-index:1000;
+    z-index:100;
 }
 #jazz img {
     width:100%;
@@ -500,6 +500,43 @@ section {
     height: auto;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
+
+#fountain {
+    z-index:100;
+}
+#fountain #classroom-back {
+    width:100%;
+    max-width:2000px;
+}
+#fountain #classroom-person {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+#fountain #classroom-front {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+#fountain2 {
+    z-index:100;
+}
+#fountain2 #fountain-back {
+    width:100%;
+    max-width:2000px;
+}
+#fountain2 #fountain-person {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+#fountain2 #fountain-front {
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
