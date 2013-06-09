@@ -27,13 +27,14 @@
             <article>
                 <h1><span id="title-year">Year</span> <span id="title-inthe">in the</span> <span id="title-life">Life</span> <span id="title-atucla">at UCLA</span><span style="width:100%; display:block; clear:both" /></h1>
 
-                <h2>This is <strong>your</strong> story.</h2>
+                <h2>This is <strong id="tagline-name">your</strong> story.</h2>
 
                 <div id="privacy-disclaimer">
                     Don’t worry, we won’t save any of your info. It will only be used to customize your experience.
                 </div><!-- end div#privacy-disclaimer -->
                 <form id="info-form">
                     <input type="text" placeholder="Name" id="info-name" />
+                    <label for="info-grad-year">I am graduating in </label>
                     <select id="info-grad-year">
                         <option value="" disabled="disabled" selected="selected">Grad year</option>
                         <option value="2013">2013</option>
@@ -43,8 +44,15 @@
                     </select>
                 </form><!-- end form#info-form -->
             </article>
-            <img src="img/arrow.png" id="start-arrow" data-start="bottom:-13px" data-13-start="bottom:15px"/>
+            <img src="img/arrow.png" id="start-arrow" 
+                data-start="bottom:-13px" 
+                data-13-start="bottom:15px;opacity:1"
+                data-100-start="bottom:43px;opacity:0"/>
         </section><!-- end section#intro -->
+        <section id="welcome-letter">
+
+        </section>
+        <section id=""
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

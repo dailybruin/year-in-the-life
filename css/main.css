@@ -106,7 +106,7 @@ article {
 
 
 #intro {
-    background-color:#1daabd;
+    background-color:#126671;
 }
 #intro h1 {
     margin-top:0;
@@ -169,7 +169,7 @@ article {
     width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #126671;
+    border-bottom: 1px solid #0d5058;
     margin-bottom: 10px;
     margin-top: 10px;
     padding-left: 10px;
@@ -184,7 +184,7 @@ article {
     -webkit-appearance: none;
     border: none;
     font-family: "Palatino Linotype","Palatino",serif;
-    border-bottom: 1px solid #126671;
+    border-bottom: 1px solid #0d5058;
     background-color: transparent;
     border-radius: 0;
     color: white;
@@ -198,7 +198,7 @@ article {
     width: 300px;
     text-align: right;
     font-family: "Palatino Linotype","Palatino", serif;
-    color: #126671;
+    color: #333;
     font-size: 15px;
     line-height: 18px;
     margin-top: 16px;
@@ -210,6 +210,9 @@ article {
     width: 34px;
     position: absolute;
     left: 48%;
+}
+#intro label {
+    color: white;
 }
 
 ::-webkit-input-placeholder {
