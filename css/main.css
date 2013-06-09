@@ -370,6 +370,20 @@ section {
     max-width:2000px;
 }
 
+#football {
+    z-index:100;
+}
+#football .story-text {
+    right: 60px;
+    text-align: right;
+    margin-left: 0;
+    left: auto;
+}
+#football img {
+    width:100%;
+    max-width:2000px;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
