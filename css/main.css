@@ -462,6 +462,14 @@ section {
     right: 40px;
 }
 
+#usac {
+    z-index:100;
+}
+#usac img {
+    width:100%;
+    max-width:2000px;
+}
+
 
 ::-webkit-input-placeholder {
    color: white;
