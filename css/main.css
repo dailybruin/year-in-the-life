@@ -290,9 +290,6 @@ small {
     font-family: "Palatino Linotype","Palatino",serif;
 }
 
-#welcome-letter .user-applicant-number {
-    font-weight:bold;
-}
 #welcome-letter .story-text {
         top: -140px;
 }

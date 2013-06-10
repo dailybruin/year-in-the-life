@@ -86,8 +86,8 @@ $(document).ready(function() {
 
 		if(user_year == 2013)
 		{
-			$('#fountain-text').html('getting ready to');
-			$('#graduate-text').html('Then this weekend you’ll graduate, saying farewell to UCLA ...');
+			$('#fountain-text').html('and getting ready to');
+			$('#graduate-text').html('Then, this weekend you’ll graduate, saying farewell to UCLA ...');
 
 			$('#diploma').detach();
 			$('#final').detach();
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		else
 		{
 			$('#fountain-text').html('watching graduates');
-			$('#graduate-text').html('Then this weekend you’ll graduate, saying farewell to UCLA ...');
+			$('#graduate-text').html('Then, this weekend you’ll graduate, saying farewell to UCLA ...');
 
 			$('#diploma').detach();
 			$('#final').detach();
