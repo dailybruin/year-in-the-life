@@ -100,7 +100,7 @@ $(document).ready(function() {
 		else
 		{
 			$('#fountain-text').html('watching graduates');
-			$('#graduate-text').html('Then, this weekend you’ll graduate, saying farewell to UCLA ...');
+			$('#graduate-text').html('Then, this weekend we’ll say farewell to the class of 2013.');
 
 			$('#diploma').detach();
 			$('#final').detach();
