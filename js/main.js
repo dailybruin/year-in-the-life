@@ -20,6 +20,7 @@ $(document).ready(function() {
 	grad_parts[0] = $('#diploma').detach();
 	grad_parts[1] = $('#final').detach();
 	grad_parts[2] = $('#final2').detach();
+	grad_parts[2].appendTo("body");
 
 	// Make a few fixes to the intro screen
 	$('#intro').css('height',window.innerHeight);
