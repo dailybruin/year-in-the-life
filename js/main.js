@@ -1,6 +1,7 @@
 var user_name;
 var user_fullname;
 var user_year;
+var grad_parts = new Array();
 var s;
 
 var admitted = new Array();
@@ -16,6 +17,9 @@ numbers[2014] = "Three";
 numbers[2013] = "Four";
 
 $(document).ready(function() {
+	grad_parts[0] = $('#diploma').detach();
+	grad_parts[1] = $('#final').detach();
+	grad_parts[2] = $('#final2').detach();
 
 	// Make a few fixes to the intro screen
 	$('#intro').css('height',window.innerHeight);
@@ -34,7 +38,7 @@ $(document).ready(function() {
 
 	function setname(){
 		var name = $('#info-name').val();
-		fullname = name;
+		user_fullname = name;
 		if(name == "")
 		{
 			$('#tagline-name').html("your");
@@ -51,6 +55,12 @@ $(document).ready(function() {
 		$('.user-name').each(function(){
 			$(this).html(user_name);
 		});
+
+		$('#diploma-name').html(user_fullname);
+		if(user_fullname == "")
+		{
+			$('#diploma-name').html("Joe Bruin");
+		}
 	}
 
 	$('#info-name').keypress(setname);
@@ -77,12 +87,28 @@ $(document).ready(function() {
 		{
 			$('#fountain-text').html('getting ready to');
 			$('#graduate-text').html('Then this weekend you’ll graduate, saying farewell to UCLA ...');
+
+			$('#diploma').detach();
+			$('#final').detach();
+			$('#final2').detach();
+			grad_parts[0].appendTo("body");
+			grad_parts[1].appendTo("body");
+
+			s.refresh();
 		}
 		else
 		{
 			$('#fountain-text').html('watching graduates');
 			$('#graduate-text').html('Then this weekend you’ll graduate, saying farewell to UCLA ...');
+
+			$('#diploma').detach();
+			$('#final').detach();
+			$('#final2').detach();
+			grad_parts[3].appendTo("body");
+
+			s.refresh();
 		}
+		setname();
 	});
 
 

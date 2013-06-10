@@ -610,6 +610,33 @@ section {
     color:white;
 }
 
+#final2 {
+    z-index:100;
+    padding-top:12px;
+    height: 50px !important;
+    position: fixed;
+    bottom: 100px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    text-align:center;
+    color:white;
+    font-family:"Palatino Linotype", "Palatino", serif;
+    font-size:80px;
+    font-weight: bold;
+}
+
+#final2 .links {
+    font-size: 20px;
+    display: block;
+}
+#final2 .links a {
+    color:white;
+}
+#final2 .links a:visited {
+    color:white;
+}
+
+
 
 .user-year {
     display:none;
