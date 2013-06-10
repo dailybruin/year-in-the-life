@@ -611,6 +611,10 @@ section {
 }
 
 
+.user-year {
+    display:none;
+}
+
 ::-webkit-input-placeholder {
    color: white;
    opacity:0.5;
